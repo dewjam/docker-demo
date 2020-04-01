@@ -1,0 +1,11 @@
+apiVersion: v1
+data:
+  index.html: |
+    <html>
+
+    <h1>Hello STRADA!  I'm configured via a configmap!</h1>
+
+    </html>
+kind: ConfigMap
+metadata:
+  name: docker-demo-data
