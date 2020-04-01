@@ -53,7 +53,7 @@ REPOSITORY                                 TAG                 IMAGE ID         
 docker-demo                                latest              c3a996e3ac88        30 minutes ago      428.5 MB
 ```
 
-## Create a container based on the image we just created
+## Run a container based on the image we just created
 Run the container image:
 ```
 docker run -itd --name docker-demo -p 80:80 docker-demo
